@@ -7,7 +7,8 @@ chrome.webRequest.onBeforeRequest.addListener(
 		}
 	},
 	{urls: ["https://www.youtube.com/watch*", 
-			"https://www.youtube.com/playlist*"
+			"https://www.youtube.com/playlist*",
+			"https://www.youtube.com/results?search_query=*"
 			]},
 	["blocking"]);
 	
